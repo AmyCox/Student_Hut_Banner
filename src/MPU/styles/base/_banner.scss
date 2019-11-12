@@ -1,0 +1,108 @@
+$banner-width: 300px;
+$banner-height: 250px;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.banner {
+  background: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: $banner-height;
+  left: 50%;
+  overflow: hidden;
+  position: relative;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: $banner-width;
+}
+
+.background, .logo, .header, .copy1, .outro1 {
+  width: $banner-width;
+  height: $banner-height;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.logo-overlay {
+  width: $banner-width;
+  height: $banner-height;
+  position: absolute;
+  top: 0;
+  right: 0;
+ mix-blend-mode: screen;
+}
+
+.pink-line {
+  width: $banner-width;
+  height: $banner-height;
+  position: absolute;
+  top: 0;
+  right: -410px;
+}
+
+.img1, .img2 {
+  width: $banner-width;
+  height: $banner-height;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.copy {
+  width: $banner-width;
+  height: $banner-height;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.ten {
+  z-index: 1111;
+}
+.nine {
+  z-index:999;
+}
+.eight {
+  z-index:888;
+}
+.seven {
+  z-index:777;
+}
+.six {
+  z-index:666;
+}
+.five {
+  z-index:555;
+}
+.four {
+  z-index:444;
+}
+.three {
+  z-index:333;
+}
+.two {
+  z-index:222;
+}
+.one {
+  z-index:111;
+}
+
+
